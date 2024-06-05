@@ -41,6 +41,30 @@ nav a:hover{
     color: #6DD432;
 }
 
+/*mapa e form*/
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6DD432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+iframe{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
 /* Especificos IDs */
 
 #ItemContato{
@@ -48,6 +72,9 @@ nav a:hover{
     padding-right: 0;
     margin-right: 0;
 
+}
+#produto .flex-conteiner, #contato .flex-conteiner{
+    margin-top: 43px;
 }
 
 /* Estilos com Clase */
@@ -76,7 +103,7 @@ nav a:hover{
 }
 
 .Produto figure{
-    border: 1px solid #c4c4c4;
+    border: 1px solid #7c7b7b;
     background-color: #fff;
     margin: 0 0 15px 0;
     /* Esquerdo topo direita rodapé */
@@ -100,4 +127,12 @@ nav a:hover{
 .Produto figure img{
     vertical-align: middle;
 }
+
+.texto-centralizado{
+    text-align: center;
+}
+
+
+/*RODAPÉ*/
+
 
